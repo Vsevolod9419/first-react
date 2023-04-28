@@ -34,7 +34,7 @@ export function Task3(){
 
 	return(
 		<div className="card" style={{width: "18rem"}}>
-      <img src={data.image} class="card-img-top" alt="..."/>
+      <img src={data.image} className="card-img-top" alt="..."/>
       <div className="card-body">
        <h5 className="card-title">{data.cardTitle}</h5>
         <p className="card-text">{data.cardDescription}</p>
